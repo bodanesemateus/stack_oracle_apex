@@ -1,3 +1,3 @@
-# Apex
+# Stack Oracle + Apex
 
-Este projeto contem todas as workspaces, application e pages do Apex da Aurora. Desta forma tendo todo o versionamento do front-end (aplicacao).
+Neste repositorio contem arquivos para subir um docker local com um container rodando oracle 21 + oracle Apex 23.2.2
