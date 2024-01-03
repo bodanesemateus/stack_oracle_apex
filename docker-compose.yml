@@ -1,8 +1,8 @@
 version: '3'
 services:
   oracle_apex_aurora:
-    image: orc_apx_aurora:v1
-    container_name: oracle_apex_aurora
+    image: oracle_apex:v1
+    container_name: oracle_apex
     ports:
       - "1521:1521"
       - "8080:8080"

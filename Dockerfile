@@ -30,7 +30,7 @@ USER oracle
 # Crie uma pasta com os instaladores e baixe os mesmos
 RUN mkdir /home/oracle/install && \
     cd /home/oracle/install && \
-    curl -o apex-latest.zip https://download.oracle.com/otn_software/apex/apex-latest.zip
+    curl -o apex-latest.zip https://download.oracle.com/otn_software/apex/apex_23.1.zip
 
 # Crie um diretório para o Oracle APEX e descompacte o mesmo
 RUN cd $ORACLE_HOME && \
