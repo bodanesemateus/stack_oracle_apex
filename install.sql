@@ -1,0 +1,5 @@
+ALTER SESSION SET CONTAINER = FREEPDB1;
+
+@apexins.sql APEX APEX TEMP / i /
+
+exit;

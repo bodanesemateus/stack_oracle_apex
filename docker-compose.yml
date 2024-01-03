@@ -1,0 +1,17 @@
+version: '3'
+services:
+  oracle_apex_aurora:
+    image: orc_apx_aurora:v1
+    container_name: oracle_apex_aurora
+    ports:
+      - "1521:1521"
+      - "8080:8080"
+    environment:
+      - APEX_ADMIN_USER=admin
+      - APEX_ADMIN_EMAIL=bodanesemateus@gmail.com
+      - APEX_ADMIN_PASSWORD=Oracle123#apex
+      - LISTENER=Oracle123#apex
+      - PUBLIC=Oracle123#apex
+    volumes:
+      - ./bkp_oracle:/opt/oracle/backup
+    #command: ["sleep","5"]
