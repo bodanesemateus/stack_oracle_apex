@@ -119,7 +119,7 @@ chmod x+ scripts/*.sh
 
 
 
-###echo -e "1\n1\nsys\n" |ords install
+echo -e "2\n1\n1\nlocalhost\n1521\nFREEPDB1\nsys\nE\nSYSAUX\nTEMP\n1\n1\n1\n8043\n/opt/oracle/ords/i/\n" |ords install
 
 
 
